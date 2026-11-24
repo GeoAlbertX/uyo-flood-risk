@@ -1,0 +1,20 @@
+# Large data files (download them yourself, see docs/data_sources.md)
+data/raw/*
+!data/raw/.gitkeep
+*.tif
+*.tiff
+*.nc
+*.aux.xml
+# Keep small processed tables
+!data/processed/*.csv
+# Python
+__pycache__/
+*.pyc
+.venv/
+# QGIS
+*.qgz~
+*.qgs~
+
+# Private notes (kept on this computer only)
+CLAUDE.md
+SESSION_LOG.md
